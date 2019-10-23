@@ -7,5 +7,5 @@ docker:
     version: "18.03.0~ce-0~debian"
   # Environment variables for the docker process
   # Added a different storage driver to the docker daemon
-  environment:
-    DOCKER_OPTS: "-H fd:// --storage-driver devicemapper"
+  # environment:
+  #   DOCKER_OPTS: "-H fd:// --storage-driver devicemapper"

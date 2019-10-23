@@ -1,2 +1,0 @@
-pytest==3.4.1
-testinfra==1.11.0
