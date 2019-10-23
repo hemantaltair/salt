@@ -5,8 +5,8 @@ docker:
     name: docker-ce
     version: "latest"
   # Environment variables for the docker process
-  # environment:
-  #   DOCKER_OPTS: "-H fd://"
+  environment:
+    DOCKER_OPTS: "-H fd://"
 
 
       # - docker-ce
