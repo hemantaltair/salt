@@ -1,0 +1,22 @@
+sudo: required
+
+
+language: python
+
+services:
+  - docker
+
+before_install:
+  - bundle install
+
+
+env:
+  matrix:
+    - INSTANCE: default-ubuntu-1804
+    - INSTANCE: default-debian-jessie
+    - INSTANCE: default-debian-stretch
+    - INSTANCE: version-1131-debian-jessie
+    - INSTANCE: version-1131-debian-stretch
+
+script:
+  - bundle exec kitchen verify ${INSTANCE}

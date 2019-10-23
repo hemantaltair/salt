@@ -1,3 +1,5 @@
 base:
   '*':
-    - docker
+
+include:
+  - base: docker
