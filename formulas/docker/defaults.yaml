@@ -1,9 +1,9 @@
 # vim: ft=jinja sts=2 ts=2 sw=2 et ai
 
-docker:
-  package:
-    name: docker-ce
-    version: "latest"
+# docker:
+#   package:
+#     name: docker-ce
+#     version: "latest"
   # Environment variables for the docker process
   # environment:
   #   DOCKER_OPTS: "-H fd://"
