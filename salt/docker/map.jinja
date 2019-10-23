@@ -2,4 +2,4 @@
 
 {% import_yaml slspath + "/defaults.yaml" as defaults %}
 
-{% set docker = salt['pillar.get']('docker', default=defaults.docker, merge=True) %}
+{% set docker = salt['pillar.docker.get']('docker', default=defaults.docker, merge=True) %}
