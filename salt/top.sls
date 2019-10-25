@@ -1,3 +1,6 @@
 base:
     '*':
-        - docker.remove
+
+include:
+  - base: docker.remove
+  - base: docker.compose-ng
