@@ -1,3 +1,3 @@
 base:
     '*':
-        - gitlab-runner
+        - nodejs
