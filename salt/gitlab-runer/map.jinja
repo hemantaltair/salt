@@ -1,0 +1,18 @@
+# vim: sts=2 ts=2 sw=2 et ai
+{% set gitlab  = salt['grains.filter_by']({
+  'Debian': {
+    'runner':{
+      'username': 'gitlab-runner',
+      'home': '/home/gitlab-runner',
+      'executor': 'shell',
+    }
+  },
+  'default': {
+    'runner':{
+      'username': 'gitlab-runner',
+      'downloadpath': 'https://packages.gitlab.com/runner/gitlab-runner/packages/linuxmint/sonya/gitlab-runner_10.4.0_amd64.deb/download',
+      'home': '/home/gitlab-runner',
+      'executor': 'shell',
+    }
+  },
+}, merge=salt['pillar.get']('gitlab')) %}
