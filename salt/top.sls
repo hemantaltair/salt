@@ -1,4 +1,4 @@
 base:
     '*':
-        - docker.clean
+        - docker.remove
         - docker
