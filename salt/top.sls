@@ -1,4 +1,3 @@
 base:
     '*':
         - docker.remove
-        - docker
