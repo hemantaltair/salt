@@ -1,6 +1,6 @@
 # vim: sts=2 ts=2 sw=2 et ai
 #
-{% from "gitlab/map.jinja" import gitlab with context %}
+{% from "gitlab-runner/map.jinja" import gitlab with context %}
 
 {% if grains['os_family'] == 'Debian' %}
 gitlab-runner repo:
