@@ -53,6 +53,7 @@ docker-pkg:
 
 # Docker compose supported attributes
 docker:
+  remove:
   # install_pypi_pip: true
   # install_docker_py: true
   # version of docker-compose to install (defaults to latest)

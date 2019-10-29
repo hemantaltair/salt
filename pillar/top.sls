@@ -1,3 +1,3 @@
 base:
     '*':
-        - ignore_missing: True
+        - docker.remove
