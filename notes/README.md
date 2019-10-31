@@ -13,3 +13,5 @@ equivalent to -> deb https://packages.gitlab.com/runner/gitlab-runner/{{ grains[
 
 #Salt pillar uses a Top file to match Salt pillar data to Salt minions.
 https://docs.saltstack.com/en/getstarted/config/pillar.html
+
+#when pillar cache it's old configuration run -> salt '*' saltutil.refresh_pillar -> refresh pillar config
