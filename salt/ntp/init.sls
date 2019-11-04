@@ -1,3 +1,3 @@
 include:
-  - .ntp
+  # - .ntp
   - .start
