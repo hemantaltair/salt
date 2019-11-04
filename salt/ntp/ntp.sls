@@ -6,8 +6,8 @@
 #     - location: end
 
 update /etc/ntp.conf:
-  file:
-    - append
+  file.append:
+    - name: /etc/ntp.conf
     - template: jinja
     - sources:
-      - salt://ntp/ntp.conf
+      - salt://ntp/conf/ntp.conf
