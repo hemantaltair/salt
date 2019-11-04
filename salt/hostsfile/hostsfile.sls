@@ -1,4 +1,4 @@
-Configure the hosts file:
+configure the hosts file:
   file.replace:
     - name: {{ salt['pillar.get']('hostsfile:path') }}
     - pattern: 127.0.0.1 localhost
