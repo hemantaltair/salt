@@ -1,9 +1,0 @@
-# vim: sts=2 ts=2 sw=2 et ai
-{% set hostfile  = salt['grains.filter_by']({
-  'Debian': {
-  },
-  'default': {
-      'path': '/etc/hosts',
-      'azure_ad_domain_name': 'altairunlimited.com',
-  },
-}, merge=salt['pillar.get']('hostsfile')) %}
