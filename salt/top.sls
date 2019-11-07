@@ -1,5 +1,5 @@
 base:
     '*':
-        # - hostsfile
-        # - linux-base-package
+        - hostsfile
+        - linux-base-package
         - ntp
