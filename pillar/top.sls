@@ -1,4 +1,4 @@
 base:
     'windows':
         - hostsfile
-        - secrets
+        # - secrets
