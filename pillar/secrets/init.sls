@@ -1,18 +1,18 @@
-#!yaml|gpg
+#!jinja|yaml|gpg
 
 hemant-secret:
     password: |
         -----BEGIN PGP MESSAGE-----
 
-        hQGMA3XpCO+2zD6qAQv/RWJJByhuxEAS7GdzlOQ2DlMJL5SQD0XnY0pmfK5a03dk
-        XgUjM1KujNbZJKQaQx4Rg0mtCdc+D/gYyclxhM+ZpR4otpo2CtZrsFDCqdc0S9AN
-        EJ4Ni5PElNi+Ah+xRfRoZRdMYCkQX3j9p1eArtlMGuF4cggvZJuYiJzAfe1rKncw
-        bUMl7Dj903xRcmRH+nT5mQ9w0t2sF+pxECZh3LviLT9PFbJ3L82UyNEKd964/LU6
-        XxyCPPxC35KHl+4rJJlixuzXTckivi0c65RHPpfl9r00WjkVbRXOIQmy0t4zteNf
-        l+LbQPabELJNkioFya7HuZzCmQq8B3EVUU6FLLvGPemXchpAy7892weRXLw3jZv0
-        3p3mJ3FWimqkCsrfFsfOIdTSvpwREX6juRaxr1cMVSQ2vr/6Pd/s/8ewqyAiFEYg
-        tcjOtc9Bxj5PyngWnr5Kx01czi9qlaPdxCwTfj/k7lKB8mkMmFWP7YjQvtluDG+V
-        LSrxq87aC8RJi9BNAf+M0kcBeGA9wsYPz7+yRwfwZJa7o+tYSWVsCIWShqm9fGd7
-        Iz0ThCR2t8q5t1kfMygL4uF1Ds8O6WXvsLtzxIkk6zdttzr+kp02EA==
-        =iGu4
+        hQGMA56Z5UHjZQbGAQv/VhaX8s7v5906qrRIHTYOP0db41AuODy5T4LcDJ3vvkFN
+        3RvKVRp1d5dVq9Jd0506Dc8gGSE5Jrw4HTbCk9E/H1bp4x54rgKeKoeThwFQ1RAj
+        NY/rhz0WsUjEYKMLYC/GY8AcydQaBmXj2GvN/Wk0uDaYcsVteH0dM6yB0O9OC1ZE
+        09syEaermWlfjc4FSUFlBz3V3Ft4sCdLmq4q5xKMq8paDt05lTKkmAPVobhctjta
+        vxJhbCGaulfsnA9FELZXz/eHepdQtWrRmpbZJHapoN4ztMtkCjKWKEz0SUwB+yKm
+        nK2uPcZ6tD46uxK+6A1885vZaAjO6O52cxRPBCMVy+E2nFZkNMI7dRKw3K5M6T7a
+        7ZTI+QWmC7HkMzHZVzyy128ZNFhas5+ZUs0KERAPP3OwvaI4JT8k9QLhZVaOF/Hm
+        LBkX5kqPwBFuVzA7Hknb98g8w5zYAjcxsMLiNjYohjhUq8V0MarYIywqZ68gkxh5
+        TZQJQWy10oE6NPxR4/Aa0kcBMDtsNpOwu3FTo/YBSOFm5fkyOfFsOGB5+Ts4ejuk
+        7szY6zORLHsLWcs5CP15OGd03Ym57AOikyrMo8cvkTT1fSenr6lfQg==
+        =023T
         -----END PGP MESSAGE-----
