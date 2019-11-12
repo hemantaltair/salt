@@ -1,4 +1,4 @@
-#!jinja|yaml|gpg
+#!yaml|gpg
 
 hemant-secret:
               password: |
