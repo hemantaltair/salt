@@ -1,16 +1,17 @@
-hemant-secret: |
-{{ salt['gpg.decrypt'](gnupghome='/etc/salt/gpgkeys', bare=True, text='''
+hemant-secret:
+  password: |
+    {{ salt['gpg.decrypt'](gnupghome='/etc/salt/gpgkeys', bare=True, text='''
 -----BEGIN PGP MESSAGE-----
 
-hQGMA3XpCO+2zD6qAQv+PLkXG81Fp4EZPWqXsw3jKrm5IM18q1oVpCAhbwC/6siL
-TCy4tN1R3v3KB5UoryVkClmpWCmWq309KNN62d06D77MBLi1sYJqkKW1KNU2HP6N
-MIWjQG+rjBVh6CiGPEkG8Hsuw7L+USwSBptpaWPYazMgQDXIrtnlddPOQ6qXFAqL
-JvQ3ipCJDfy5hx3mkK23ZJ6yEoWCx4zeLZfgSEy0ZXeRTQSpK5M3hAFyJ0YG4LhE
-R4MxSLTf7m7PWVHEbhz9VCkRv8BOUHXGODm8pvbKpepPWTcutsq9Xv92NQfJhXn6
-7mSiUQdSmsghT3hbgeFYHXdn0qXms2E6Y+9ILucaqhw6r+/GILo0PXF3Xa+WcTtX
-s37+gczGI9cB2mNRsMRZlpYqzJVJAHcPr/Mx2oBFJvi9u8JRLOq3MsX6PV9Gt510
-toM0eDln5cg0MEuFDlKaN3Rrhaa4/FAiD+aRhlz9wUma41GEuDhNI8ckoAIjxwNs
-rcCvOTVDmxbyIXp9D6aZ0kcBUaObgMLJfLmTZEjHoyTyY0kbRAhZ/SiRNgrJsg/p
-tDf8UFNGgcY5c7PsCCzJihzbuYOL/ujJVMruqRQpF9ZWDpNPLAIxZw==
-=SB6d
+hQGMA3XpCO+2zD6qAQwAoWf7N8ihcMei8wFF3MqbGHlSDrcjOI0xMQeTh+QzfXta
+dpMf5UemIArZLedq9afvZr78261TZx5M4RSgZnhjBQLFK6KpFx0yRkfFrC5ER7ZT
+82hYxG2c1gQG6EqQP66grg8HMoLGUSloWxzsT4Fkx/p0FWdxYIvhp3IQt8bsLZ5S
+0iQhLOoH+651KFywFLce+RvqTRwhr8AZhriXlo5DwfDeNDkQYYmhtbApsFwjHf2j
+qdrMrKpAvXS+H3kNlW67/1GiESW7lBVyfo7lIQAVsCno2naIrWu2wBCYNhnkSMqI
+xdGLtBHPHiGpvMGtSCSufzQXB7yQGhcGF5/HV7PRj8gMzo7Ou5nLnFW/vpeOMIkB
+fXU/NX5hn0OBfTNvnn9iu3Y/bDZjYU0U0gVccsnQmngqpr+OhZCci3IrpUlbJrBy
+jlwEeaMqUPuta76rTcaQPrCPY9l46iZ/GjAS3e5SHcg8swsoFW71kCi4UIx9vJ90
+RFvskJU3PDUH2lMNax0S0kcB/70tVXobevXgNGLUZWNeex8VrxhTqmCElqrKuS7e
+9GYpyuTUrawGxmQcms5b9vg61m/lupOfFJvYWr4kjtFA/4jxIDUk/w==
+=ALNV
 -----END PGP MESSAGE-----''') | indent(4) }}
