@@ -1,19 +1,17 @@
-#!yaml|gpg
+#!jinja|yaml|gpg
 
-secrets:
-  hemant:
-    password: |
-      -----BEGIN PGP MESSAGE-----
+hemant-secret: |
+  -----BEGIN PGP MESSAGE-----
 
-      hQGMA3XpCO+2zD6qAQv9GP2v9vKmzFntVPxMfHkihrJpjs5vcnUe+4HIvUATYo35
-      7gCqfBcZStZ5dm2sDel+HEdpQPJXTk0aQtkv1zdFWOMCYvWarWGukYykQHDTtGSl
-      lykFZp2wMnnsBhs/o93cGdPzV2y7YZ7ZoMtiqTZaAxWsO4nrrQf8sXTg7yYcDvFq
-      sRicSWC0QyF0+rsBRiDRi6Ia/teUiz22iLIeEpfPXOrGedeEWxgQm0jTXOfZ4L6o
-      kdrJQQz05Fl3WPz3AqEBIGu/mKr+T/FoclRWrYCXE8EoPfrA7qi1yUerLZnigmRj
-      BKOOq9myclLIahX5ODov9fCSP+U0CYi+kzLmnK4itDdBSu1qjdPLbvMh0g4p3uQv
-      lGLina/XgIJAYc6nLzaIOK+1C22RYBzQjPxEgQBlrEad2OOD8inW9d0DPLoAcezV
-      SzCstgEm4GVQHzvHye1vsoI5oaWrUBpMgzqI7yqHWFdPbtNVJpRluBnFPc0qHoFM
-      5AnfxxnIdbr298G2q8Du0kcBynDHy9aJ6viJl2UG0xa6LWLLfpnB8LeWy1WdW4Pu
-      KH4bJNQp6KYz0mTKFxQyeef8aijZmdxT69BIu2zXqIrMVRNIHbSxxw==
-      =dql0
-      -----END PGP MESSAGE-----
+  hQGMA3XpCO+2zD6qAQv+PLkXG81Fp4EZPWqXsw3jKrm5IM18q1oVpCAhbwC/6siL
+  TCy4tN1R3v3KB5UoryVkClmpWCmWq309KNN62d06D77MBLi1sYJqkKW1KNU2HP6N
+  MIWjQG+rjBVh6CiGPEkG8Hsuw7L+USwSBptpaWPYazMgQDXIrtnlddPOQ6qXFAqL
+  JvQ3ipCJDfy5hx3mkK23ZJ6yEoWCx4zeLZfgSEy0ZXeRTQSpK5M3hAFyJ0YG4LhE
+  R4MxSLTf7m7PWVHEbhz9VCkRv8BOUHXGODm8pvbKpepPWTcutsq9Xv92NQfJhXn6
+  7mSiUQdSmsghT3hbgeFYHXdn0qXms2E6Y+9ILucaqhw6r+/GILo0PXF3Xa+WcTtX
+  s37+gczGI9cB2mNRsMRZlpYqzJVJAHcPr/Mx2oBFJvi9u8JRLOq3MsX6PV9Gt510
+  toM0eDln5cg0MEuFDlKaN3Rrhaa4/FAiD+aRhlz9wUma41GEuDhNI8ckoAIjxwNs
+  rcCvOTVDmxbyIXp9D6aZ0kcBUaObgMLJfLmTZEjHoyTyY0kbRAhZ/SiRNgrJsg/p
+  tDf8UFNGgcY5c7PsCCzJihzbuYOL/ujJVMruqRQpF9ZWDpNPLAIxZw==
+  =SB6d
+  -----END PGP MESSAGE-----
