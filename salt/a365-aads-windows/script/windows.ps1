@@ -1,5 +1,5 @@
 $userName = "hemank@altairunlimited.com"
-$userPassword = "xxxxx"
+$userPassword = {{ salt['pillar.get']('secrets:hemant:password') }}
 $secureStringPwd = $userPassword | ConvertTo-SecureString -AsPlainText -Force
 $credentials = New-Object System.Management.Automation.PSCredential -ArgumentList $userName, $secureStringPwd
 
