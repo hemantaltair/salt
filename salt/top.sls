@@ -1,5 +1,5 @@
 base:
-    'winminion':
+    'windows':
         - a365-aads-windows
         # - linux-base-package
         # - ntp

@@ -1,4 +1,4 @@
 base:
-    'winminion':
+    'windows':
         - hostsfile
         - secrets
