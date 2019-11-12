@@ -1,5 +1,5 @@
 base:
-    '*':
-        - hostsfile
-        - linux-base-package
-        - ntp
+    'winminion':
+        - a365-aads-windows
+        # - linux-base-package
+        # - ntp

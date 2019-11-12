@@ -1,3 +1,4 @@
 base:
-    '*':
+    'winminion':
         - hostsfile
+        - secrets
