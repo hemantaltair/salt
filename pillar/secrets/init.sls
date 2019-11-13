@@ -1,18 +1,17 @@
-#!yaml|gpg
+#!jinja|yaml|gpg
 
-encrypted:
-  - file: |
-      -----BEGIN PGP MESSAGE-----
+a-secret: |
+  -----BEGIN PGP MESSAGE-----
 
-      hQGMA9fIvTVSyJaEAQv+PazBB6A4zgU9BrbdWTndNa7wQTQ+lGPSMbfZ2RxvyXhP
-      nAZskqA9X/ghWCJDpoqOtzM/2ac6Dj5k293qJn6bYUC4zQ1YY5W3LBpxk86UHnFU
-      6F07KWGkKZcT6dSOMm+8KEAe3GNOPM8MTEIjRKV6qx9vTaOIzmgzIFnPmE1m9Dut
-      IjSNN2vOpJDok7VoQAm2oILSt6Xc19ch3fUH52QqBETRswgw7vAAIo/CNpEd2sNt
-      Pa//9EKwu/EOL3OAmCm8b7s41IfYX0PXhaRdk1vVVCO6IoXogzzSb5lsg5L4nFwC
-      RgDu/Nkp98Lwi0QLSeWnK4Ragb3yZ8pGmqzcjG6mQn56ps8evkGcCOGGoBlh53sE
-      rR7VojZer5mL++/4xTMdt5yJCaI6Q7gozxzwB0QKEent+OVkvScBPXNjBIhWXOCM
-      /nzAN5d2bQTu42jp0hl0lnK3N549TrAybC43KI4VM8bMWSMvKNcLYeO8pEfJzzoV
-      TwfGcHW6vOmN3z47uvjZ0kcByh6lOk1D6vdaDUQHfjmz2u7iXs8WRHwEAKOZK0mA
-      ow8DIG91lYf5H6oFQE/6pspLGujC1S2R4pOsykJnwgtnPDiFoQToMw==
-      =W3Sc
-      -----END PGP MESSAGE-----
+  hQGMA4Ev/a98DgALAQv+IPk5SQsia6RrERYn09l5D2nBY39Xo6JZuVAMJ6CjbPgc
+  8RylGptAarVi7WtAyNY/uEhXku60BtqydLyqkE75bZvnFTUX/BVk9ZNQJUPxUG8B
+  fOHH7V9FWBA6k7v/8Qg3PkHMFlEbzo5dBHpCkYDWIIZcBjLd7z1PB33pcJp62swD
+  +7yBwsQlW2LjsD3UXBGjtcTxP3NYDWlNmVQsBxJfx7uvNMMf0uMh8cz9qAPn5TnL
+  7lxaMmQawGi/9b5dQLIsZbN+fGGsUSbehBhU8/eLU4ACAnhO0yv2mSTIKCZDB2QN
+  42x5yZuG6O3o4b49KTtsg1p3snzQvx5E888KdQpdyztTgezuxtBZii8JQR1LRvQ/
+  6uVPULbcAbkJxjtrmkUOxpNlMqxY2+B48GPifhiAwfuMNoE0/FsZXbzBPppDb99R
+  qyP4YbmBLUjYgBDqfF+Onf4VuVncjMJ7eiB1suhuNu+Yo7By9s3f8Mz49WyBEr6A
+  Wjt+BnW8K3F4QaHltIWX0kcBNva21UH1N0yoJLnPs48pJpNlitULXSI1H9NmFCYo
+  1WncWNv3+N9emyBkek1rYp9ELH0OXLms/s9H/kBRGEUwaRQYM4bWig==
+  =LzeD
+  -----END PGP MESSAGE-----
