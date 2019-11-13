@@ -1,4 +1,4 @@
 base:
-    'windows':
+    'saltminion':
         - hostsfile
         - secrets
