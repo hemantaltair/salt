@@ -10,3 +10,9 @@ lmx_licensefile:
     - source: salt://license-server-v2/files/licensefile
     - template: jinja
     - makedirs: True
+
+
+{% else %}
+exit-with-success-even-sls-file-is-evaluate-to-empty-{{state_id_suffix}}:
+  test.nop
+{% endif %}
