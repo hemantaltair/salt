@@ -1,5 +1,5 @@
 base:
     'a365-earth-license-server':
-        - a365-aads-windows
+        - license-server-v2
         # - linux-base-package
         # - ntp
