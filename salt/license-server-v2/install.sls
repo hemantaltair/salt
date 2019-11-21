@@ -1,6 +1,6 @@
 {% import_yaml slspath + '/defaults.yaml' as defaults %}
 
-lmx_licensefile:
+licensefile:
   file.managed:
     - name: {{ defaults['install_tmp'] }}/licensefile
     - source: salt://license-server-v2/files/licensefile
