@@ -1,56 +1,49 @@
 {% import_yaml slspath + '/defaults.yaml' as defaults %}
-{% set lmx = salt['slsutil.merge'](defaults, pillar) %}
 
-{% if salt.cmd.retcode('test -d '+lmx['install_dir'], ignore_retcode=True) != 0 %}
-
-lmx_licensefile-{{state_id_suffix}}:
+licensefile:
   file.managed:
-    - name: {{ lmx['install_tmp'] }}/licensefile
+    - name: {{ defaults['install_tmp'] }}/licensefile
+    - source: salt://license-server/files/licensefile
+    - template: jinja
     - makedirs: True
-    - source: {{ lmx['license_url'] }}
-    - source_hash: sha512={{ lmx['license_sha512'] }}
 
-lmx_expectfile-{{state_id_suffix}}:
+expectfile:
   file.managed:
     - require:
-      - file: lmx_licensefile-{{state_id_suffix}}
-    - name: {{ lmx['install_tmp'] }}/expectfile
+      - file: licensefile
+    - name: {{ defaults['install_tmp'] }}/expectfile
     - source: salt://{{ slspath }}/files/expectfile.template
     - template: jinja
     - mode: 700
     - context:
-        install_dir: {{ lmx['install_dir'] }}
-        license_file: {{ lmx['install_tmp'] }}/licensefile
+        install_dir: {{ salt['pillar.get']('license-server:install_dir') }}
+        license_file: {{ defaults['install_tmp'] }}/licensefile
 
-lmx_installer-{{state_id_suffix}}:
+
+installer:
   file.managed:
     - require:
-      - file: lmx_expectfile-{{state_id_suffix}}
-    - name: {{ lmx['install_tmp'] }}/lmx_install_bin
-    - source: {{ lmx['url'] }}
-    - source_hash: sha512={{ lmx['sha512'] }}
+      - file: expectfile
+    - name: {{ defaults['install_tmp'] }}/license_manager_install_bin
+    - source: {{ salt['pillar.get']('license-server:url') }}
+    - source_hash: {{ salt['pillar.get']('license-server:sha512') }}
     - user: root
     - group: root
     - mode: 744
 
-expect-{{state_id_suffix}}:
+expect:
   pkg.installed:
     - name: expect
 
-lmx_install-{{state_id_suffix}}:
+install:
   cmd.run:
     - require:
-      - file: lmx_installer-{{state_id_suffix}}
-      - pkg: expect-{{state_id_suffix}}
-    - cwd: {{ lmx['install_tmp'] }}
+      - file: installer
+      - pkg: expect
+    - cwd: {{ defaults['install_tmp'] }}
     - name: |
         ./expectfile
 
-clean_install_folder-{{state_id_suffix}}:
+clean_install_folder:
   file.absent:
-    - name: {{ lmx['install_tmp'] }}
-
-{% else %}
-exit-with-success-even-sls-file-is-evaluate-to-empty-{{state_id_suffix}}:
-  test.nop
-{% endif %}
+    - name: {{ defaults['install_tmp'] }}

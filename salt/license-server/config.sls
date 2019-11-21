@@ -1,4 +1,4 @@
-altairlmxd-{{state_id_suffix}}:
+altairlmxd:
   service.running:
     - name: altairlmxd
     - enable: True

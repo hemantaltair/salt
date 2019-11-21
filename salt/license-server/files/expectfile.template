@@ -1,6 +1,6 @@
 #!/usr/bin/expect -f
 
-spawn ./lmx_install_bin
+spawn ./license_manager_install_bin
 set timeout 60
 
 expect "PRESS <ENTER> TO CONTINUE"

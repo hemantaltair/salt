@@ -1,0 +1,1 @@
+{{ salt['pillar.get']('license-server:license_file') }}
