@@ -27,3 +27,7 @@ lmx_installer:
     - user: root
     - group: root
     - mode: 744
+
+expect:
+  pkg.installed:
+    - name: expect
