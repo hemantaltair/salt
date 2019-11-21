@@ -23,8 +23,8 @@ expectfile:
 installer:
   file.managed:
     - require:
-      - file: lmx_expectfile
-    - name: {{ defaults['install_tmp'] }}/lmx_install_bin
+      - file: expectfile
+    - name: {{ defaults['install_tmp'] }}/license_manager_install_bin
     - source: {{ salt['pillar.get']('license-server-v2:url') }}
     - source_hash: {{ salt['pillar.get']('license-server-v2:sha512') }}
     - user: root
