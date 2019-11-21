@@ -1,3 +1,5 @@
+#!jinja|yaml|gpg
+
 url: https://a365infraaccount.blob.core.windows.net/a365infra-storage-container/altair_licensing_14.0.6.linux_x64.bin
 sha512: 46829adab1f9654e3e9df9a846b9e06a65db0254990ad093393474dcb6223d2837b79bc313cc478b204e72ec60b15ee29543d2df7e943dcc3c1aed47999bab74
 install_dir: /opt/altair/lmx
