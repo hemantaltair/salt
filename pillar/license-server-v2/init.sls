@@ -7,7 +7,7 @@ license-server-v2:
   # license_url: https://a365infraaccount.blob.core.windows.net/a365infra-storage-container/altair_lic_11.0.3.5.dat
   # license_sha512: 841630843b4e16f8a33f9327f6534b54fd83d0f550dd8b2aef41ba2790c25bfd97c1b6992b714fff0e3a9487b744ef580e377c65dd1a482f182efd79ee0c737b
 
-  license_file: |
+  license_file:
     -----BEGIN PGP MESSAGE-----
 
     hQGMA2Gw2f0OGcKyAQv+P210/01KIRT+sTcP+d8FdPcxqK0Lq9+AWQguB8+lo+FY
