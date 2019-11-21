@@ -8,7 +8,7 @@ lmx_licensefile:
     - template: jinja
     - makedirs: True
 
-lmx_expectfile-{{state_id_suffix}}:
+lmx_expectfile:
   file.managed:
     - name: {{ lmx['install_tmp'] }}/expectfile
     - source: salt://{{ slspath }}/files/expectfile.template
