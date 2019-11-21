@@ -1,4 +1,4 @@
 base:
-    'saltminion':
+    'a365-earth-license-server':
         - hostsfile
         - secrets

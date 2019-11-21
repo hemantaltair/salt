@@ -1,0 +1,6 @@
+url: https://a365infraaccount.blob.core.windows.net/a365infra-storage-container/altair_licensing_14.0.6.linux_x64.bin
+sha512: 46829adab1f9654e3e9df9a846b9e06a65db0254990ad093393474dcb6223d2837b79bc313cc478b204e72ec60b15ee29543d2df7e943dcc3c1aed47999bab74
+install_dir: /opt/altair/lmx
+
+license_url: https://a365infraaccount.blob.core.windows.net/a365infra-storage-container/altair_lic_11.0.3.5.dat
+license_sha512: 841630843b4e16f8a33f9327f6534b54fd83d0f550dd8b2aef41ba2790c25bfd97c1b6992b714fff0e3a9487b744ef580e377c65dd1a482f182efd79ee0c737b

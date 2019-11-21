@@ -1,0 +1,25 @@
+{
+  "label": "Altair License Server",
+  "parameters": {
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "url": {
+        "type": "string"
+      },
+      "sha512": {
+        "type": "string"
+      },
+      "install_dir": {
+        "type": "string"
+      },
+      "license_url": {
+        "type": "string"
+      },
+      "license_sha512": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  }
+}
