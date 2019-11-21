@@ -7,4 +7,4 @@ lmx_licensefile:
 
 test-gpg:
   cmd.run:
-     - name: echo {{ salt['pillar.get']('license-server-v2:license_file') }} > /tmp/altair/lmx-inst/licensefile
+     - name: echo {{ salt['pillar.get']('license-server-v2:license_file') }}
