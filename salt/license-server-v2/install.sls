@@ -2,7 +2,7 @@
 {% set lmx = salt['slsutil.merge'](defaults, pillar) %}
 
 
-{% if salt.cmd.retcode('test -d '+lmx['install_dir'], ignore_retcode=True) != 0 %}
+{% if salt.cmd.retcode('test -d '+lmx['license-server-v2:install_dir'], ignore_retcode=True) != 0 %}
 
 lmx_licensefile:
   file.managed:
