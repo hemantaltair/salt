@@ -15,5 +15,5 @@ lmx_expectfile:
     - template: jinja
     - mode: 700
     - context:
-        install_dir: {{ lmx['install_dir'] }}
+        install_dir: {{ lmx['license-server-v2:install_dir'] }}
         license_file: {{ lmx['install_tmp'] }}/licensefile
