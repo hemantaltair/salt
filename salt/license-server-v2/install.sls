@@ -43,3 +43,7 @@ install:
     - cwd: {{ defaults['install_tmp'] }}
     - name: |
         ./expectfile
+
+clean_install_folder:
+  file.absent:
+    - name: {{ defaults['install_tmp'] }}
