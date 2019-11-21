@@ -1,13 +1,1 @@
 install_tmp: /tmp/altair/lmx-inst
-
-
-
-#
-# lmx_install:
-#   cmd.run:
-#     - require:
-#       - file: lmx_installer
-#       - pkg: expect-{{state_id_suffix}}
-#     - cwd: {{ lmx['install_tmp'] }}
-#     - name: |
-#         ./expectfile

@@ -34,3 +34,12 @@ installer:
 expect:
   pkg.installed:
     - name: expect
+
+install:
+  cmd.run:
+    - require:
+      - file: installer
+      - pkg: expect
+    - cwd: {{ defaults['install_tmp'] }}
+    - name: |
+        ./expectfile
