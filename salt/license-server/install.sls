@@ -9,5 +9,3 @@ licensefile:
     - source: salt://license-server/files/licensefile
     - template: jinja
     - makedirs: True
-
-in
