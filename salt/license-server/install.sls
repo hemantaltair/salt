@@ -1,5 +1,5 @@
 {% import_yaml slspath + '/defaults.yaml' as defaults %}
-{% set license-server = salt['pillar.get']('license-server', 'defaults', merge=True) %}
+{% set license-server = salt['pillar.get']('license-server', default=defaults, merge=True) %}
 
 
 
