@@ -8,7 +8,7 @@ get licensefile and decrypt using gpgkeys:
     - template: jinja
     - makedirs: True
 
-# expectfile:
+# get expectfile:
 #   file.managed:
 #     - require:
 #       - file: licensefile
@@ -21,7 +21,7 @@ get licensefile and decrypt using gpgkeys:
 #         license_file: {{ license['install_tmp'] }}/licensefile
 
 
-# get installer from azure storage:
+# get license manager binary file from azure storage:
 #   file.managed:
 #     - require:
 #       - file: expectfile
@@ -45,7 +45,7 @@ get licensefile and decrypt using gpgkeys:
 #     - name: |
 #         ./expectfile
 
-# clean_install_folder:
+# clean install folder:
 #   file.absent:
 #     - name: {{ license['install_tmp'] }}
 

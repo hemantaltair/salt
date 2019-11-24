@@ -1,2 +1,3 @@
 include:
-  - .config
+  - .install
+  # - .config
